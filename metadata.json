@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Học từ vựng N5",
+  "description": "A high-end Japanese JLPT N5 vocabulary learning platform featuring AI-powered explanations, text-to-speech, and interactive quizzes.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

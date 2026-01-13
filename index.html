@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Từ Vựng JLPT N5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --japan-red: #B11116;
+            --sumi-black: #1A1A1A;
+            --washi-white: #F9F6F0;
+        }
+        body {
+            font-family: 'Noto Serif JP', serif;
+            background-color: var(--washi-white);
+            background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+        }
+        .japanese-border {
+            border: 2px solid var(--sumi-black);
+            box-shadow: 4px 4px 0px 0px var(--sumi-black);
+        }
+        .japanese-border-sm {
+            border: 1px solid var(--sumi-black);
+            box-shadow: 2px 2px 0px 0px var(--sumi-black);
+        }
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+        .preserve-3d {
+            transform-style: preserve-3d;
+        }
+        .backface-hidden {
+            backface-visibility: hidden;
+        }
+        /* Custom scrollbar sumi style */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--washi-white);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--sumi-black);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+<body class="text-slate-900">
+    <div id="root"></div>
+</body>
+</html>
